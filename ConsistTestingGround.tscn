@@ -1,0 +1,183 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ConsistTestingGround.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="icon" type="Sprite" parent="."]
+position = Vector2( 69.051, 1.31631 )
+texture = ExtResource( 2 )
+
+[node name="icon2" type="Sprite" parent="."]
+position = Vector2( 68.6092, -104.519 )
+texture = ExtResource( 2 )
+
+[node name="icon3" type="Sprite" parent="."]
+position = Vector2( 71.1268, -215.291 )
+texture = ExtResource( 2 )
+
+[node name="icon4" type="Sprite" parent="."]
+position = Vector2( 71.1268, 122.059 )
+texture = ExtResource( 2 )
+
+[node name="icon5" type="Sprite" parent="."]
+position = Vector2( 76.1618, 280.663 )
+texture = ExtResource( 2 )
+
+[node name="icon6" type="Sprite" parent="."]
+position = Vector2( 76.1618, 441.785 )
+texture = ExtResource( 2 )
+
+[node name="icon7" type="Sprite" parent="."]
+position = Vector2( 83.7144, 663.328 )
+texture = ExtResource( 2 )
+
+[node name="icon8" type="Sprite" parent="."]
+position = Vector2( 71.1268, -409.141 )
+texture = ExtResource( 2 )
+
+[node name="icon9" type="Sprite" parent="."]
+position = Vector2( 79.2483, 772.766 )
+texture = ExtResource( 2 )
+
+[node name="icon10" type="Sprite" parent="."]
+position = Vector2( 90.6885, 921.486 )
+texture = ExtResource( 2 )
+
+[node name="icon11" type="Sprite" parent="."]
+position = Vector2( 96.4084, 1070.21 )
+texture = ExtResource( 2 )
+
+[node name="icon12" type="Sprite" parent="."]
+position = Vector2( 96.4084, 1218.93 )
+texture = ExtResource( 2 )
+
+[node name="icon13" type="Sprite" parent="."]
+position = Vector2( 96.4084, 1390.53 )
+texture = ExtResource( 2 )
+
+[node name="icon14" type="Sprite" parent="."]
+position = Vector2( 67.8083, -542.839 )
+texture = ExtResource( 2 )
+
+[node name="icon15" type="Sprite" parent="."]
+position = Vector2( 67.8083, -685.839 )
+texture = ExtResource( 2 )
+
+[node name="icon16" type="Sprite" parent="."]
+position = Vector2( 67.8083, -840.279 )
+texture = ExtResource( 2 )
+
+[node name="icon17" type="Sprite" parent="."]
+position = Vector2( 96.4084, 1602.17 )
+texture = ExtResource( 2 )
+
+[node name="icon18" type="Sprite" parent="."]
+position = Vector2( 68.5562, -1354.28 )
+texture = ExtResource( 2 )
+
+[node name="icon19" type="Sprite" parent="."]
+position = Vector2( 110.898, 2149.54 )
+texture = ExtResource( 2 )
+
+[node name="icon20" type="Sprite" parent="."]
+position = Vector2( 100.313, 1884.9 )
+texture = ExtResource( 2 )
+
+[node name="icon21" type="Sprite" parent="."]
+position = Vector2( 79.1416, -1100.23 )
+texture = ExtResource( 2 )
+
+[node name="icon22" type="Sprite" parent="."]
+position = Vector2( 79.1416, -1714.19 )
+texture = ExtResource( 2 )
+
+[node name="icon23" type="Sprite" parent="."]
+position = Vector2( 100.313, -2042.34 )
+texture = ExtResource( 2 )
+
+[node name="icon24" type="Sprite" parent="."]
+position = Vector2( 121.484, 2467.11 )
+texture = ExtResource( 2 )
+
+[node name="icon25" type="Sprite" parent="."]
+position = Vector2( 132.069, 2721.16 )
+texture = ExtResource( 2 )
+
+[node name="icon26" type="Sprite" parent="."]
+position = Vector2( 154.181, 3170.86 )
+texture = ExtResource( 2 )
+
+[node name="icon27" type="Sprite" parent="."]
+position = Vector2( 169.339, 3762.03 )
+texture = ExtResource( 2 )
+
+[node name="icon28" type="Sprite" parent="."]
+position = Vector2( 154.181, 4338.05 )
+texture = ExtResource( 2 )
+
+[node name="icon29" type="Sprite" parent="."]
+position = Vector2( 173.408, 4724.58 )
+texture = ExtResource( 2 )
+
+[node name="icon30" type="Sprite" parent="."]
+position = Vector2( 173.408, 5466.94 )
+texture = ExtResource( 2 )
+
+[node name="icon31" type="Sprite" parent="."]
+position = Vector2( 173.408, 6044.32 )
+texture = ExtResource( 2 )
+
+[node name="icon32" type="Sprite" parent="."]
+position = Vector2( 173.408, 6827.91 )
+texture = ExtResource( 2 )
+
+[node name="icon33" type="Sprite" parent="."]
+position = Vector2( 111.546, -2595.83 )
+texture = ExtResource( 2 )
+
+[node name="icon34" type="Sprite" parent="."]
+position = Vector2( 111.546, -3131.97 )
+texture = ExtResource( 2 )
+
+[node name="icon35" type="Sprite" parent="."]
+position = Vector2( 111.546, -3812.46 )
+texture = ExtResource( 2 )
+
+[node name="icon36" type="Sprite" parent="."]
+position = Vector2( 132.167, -4513.57 )
+texture = ExtResource( 2 )
+
+[node name="icon37" type="Sprite" parent="."]
+position = Vector2( 111.546, -5214.68 )
+texture = ExtResource( 2 )
+
+[node name="icon38" type="Sprite" parent="."]
+position = Vector2( 173.408, 6353.63 )
+texture = ExtResource( 2 )
+
+[node name="icon39" type="Sprite" parent="."]
+position = Vector2( 158.305, 7339.2 )
+texture = ExtResource( 2 )
+
+[node name="icon40" type="Sprite" parent="."]
+position = Vector2( 158.305, 7928.14 )
+texture = ExtResource( 2 )
+
+[node name="icon41" type="Sprite" parent="."]
+position = Vector2( 191.023, -5911.83 )
+texture = ExtResource( 2 )
+
+[node name="icon42" type="Sprite" parent="."]
+position = Vector2( 223.742, -6795.23 )
+texture = ExtResource( 2 )
+
+[node name="icon43" type="Sprite" parent="."]
+position = Vector2( 256.461, -7613.2 )
+texture = ExtResource( 2 )
+
+[node name="icon44" type="Sprite" parent="."]
+position = Vector2( 779.959, -22.4824 )
+texture = ExtResource( 2 )

@@ -8,6 +8,7 @@ var consist_group = null
 # set default mass to 1, no massless objects here
 export var mass = 1
 var velocity = 0
+var acceleration = 0
 
 # Car keeps track of previous and next cars as if it were a node in a linked list
 var previous_car = null
@@ -37,11 +38,11 @@ func _resize(new_car_length, scale_multiplier = 1):
 	$CollisionPolygon2D.polygon = vertices
 
 func _process(delta):
-	if Input.is_action_just_pressed("ui_down"):
-		_resize(length, 2)
 	if clickable and Input.is_action_just_pressed("left_click"):
 		emit_signal('decouple', consist_group)
 		print("I've been clicked")
+	velocity += acceleration * delta
+	position.y += velocity * delta
 
 func _toggle_click():
 	clickable = !clickable
