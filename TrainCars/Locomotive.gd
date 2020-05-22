@@ -1,6 +1,6 @@
 extends "res://TrainCars/Car.gd"
 var engine_power = 500
-var brake_power = 1500
+var brake_power = 1000
 var steam_pressure = 0
 var exerted_force = 0
 
@@ -22,9 +22,9 @@ func _process(delta):
 		steam_pressure = min(1, steam_pressure + 0.15 * delta)
 	#print(steam_pressure)
 	if Input.is_action_pressed("ui_left"):
-		consist_group.brake(brake_power, delta)
+		consist_group.accelerate(exerted_force, brake_power)
 	else:
-		consist_group.accelerate(exerted_force, delta)
+		consist_group.accelerate(exerted_force)
 
 ## Declare member variables here. Examples:
 ## var a = 2
