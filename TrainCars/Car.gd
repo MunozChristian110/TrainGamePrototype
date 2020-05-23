@@ -52,5 +52,5 @@ func _toggle_click():
 
 func _on_collision(object):
 	#print(object)
-	print(consist_group)
+	print("I am ", self, ' and i collided with ', object)
 	emit_signal('couple', self, consist_group)
