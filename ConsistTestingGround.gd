@@ -23,41 +23,21 @@ func _ready():
 		my_consist.add_car(new_cargo)
 #	consists.append(my_consist)
 
-func couple_consists(train_car, consist_group):
-	print('combining', consist_group)
-	if consist_b == null:
-		consist_b = consist_group
-	else:
-		consist_a = consist_group
-		combine_consist()
+#func couple_consists(train_car, consist_group):
+#	print('combining', consist_group)
+#	if consist_b == null:
+#		consist_b = consist_group
+#	else:
+#		consist_a = consist_group
+#		combine_consist()
 
-func combine_consist():
-	print(consist_a, ' attached to ', consist_b)
-	var current = consist_b.head
-	while current != null:
-		consist_a.add_car(current)
-		current = current.next_car
-	consist_b.head = null
-	consist_b.tail = null
-	consist_b = null
-	consist_a = null
-
-#func _process(delta):
-	#print(Engine.get_frames_per_second())
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
-#var car_scene = preload("res://Car.tscn")
-#var loco_scene = preload("res://Locomotive.tscn")
-#
-## Called when the node enters the scene tree for the first time.
-#func _ready():
-#	#$Locomotive.connect("kinematic_change", self, 'update_label')
-#	var loco = loco_scene.instance()
-#	$Consist.add_car(loco)
-#	var cargo = car_scene.instance()
-#	cargo.mass = 1
-#	$Consist.add_car(cargo)
-#	cargo = car_scene.instance()
+#func combine_consist():
+#	print(consist_a, ' attached to ', consist_b)
+#	var current = consist_b.head
+#	while current != null:
+#		consist_a.add_car(current)
+#		current = current.next_car
+#	consist_b.head = null
+#	consist_b.tail = null
+#	consist_b = null
+#	consist_a = null
